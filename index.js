@@ -16,7 +16,7 @@ drivers.shift(name)
 function appendDriver(name){
 }
 function appendDriver(name){
-  let oldDrivers=driver.slice()
+  let oldDrivers=drivers.slice()
   oldDrivers.push(name)
   return oldDrivers
 }
